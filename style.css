@@ -1,0 +1,164 @@
+
+body {
+  font-family: Rubik;
+  height: 100vh;
+  background-color: #fdf100;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+.top-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+
+.wol-button {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 15px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.wol-button img{
+  height: 20px;
+  width: 20px;
+  margin-left: 5px;
+}
+
+.top-buttons-container .feautured {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.logo-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 100px;
+}
+
+.logo-info-container .main-logo {
+  width: 400px;
+}
+
+.logo-info-container .desc-1 {
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.logo-info-container .desc-2 {
+  font-size: 20px;
+  margin-top: -50px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-info-container .fueler-icon {
+  width: 22px;
+  margin-left: 8px;
+  margin-right: 3px;
+}
+
+.template-container {
+  display: inline-block;
+  background-color: white;
+  border: none;
+  border-radius: 18px;
+  padding: 30px;
+  transition: transform 0.5s ease;
+}
+
+.template-container:hover {
+  transform: scale(1.05);
+}
+
+
+.template-upper-portion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.template-container .figma-logo {
+  width: 25px;
+
+}
+
+.template-container .eye-logo {
+  width: 15px;
+  border: solid 1px rgb(213, 211, 211);
+  padding: 12px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: 55px;
+  transition: background-color 0.3s ease;
+}
+
+
+.eye-logo:hover {
+  background-color: #fdf100;
+}
+
+
+.price-button {
+  background-color: #fdf100;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-family: Rubik;
+}
+
+.price-button:hover {
+  background-color: white;
+  border: solid 1px #b8b6b6;
+}
+
+.template-container .text {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.template-container .template-image {
+  width: 270px;
+  border-radius: 10px;
+  transition: transform 0.5s ease; 
+}
+
+.template-image:hover {
+  transform: scale(1.01);
+}
+
+.template-image:hover {
+  background-color: yellow;
+}
+
+.row-template-containers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 45px;
+  margin-bottom: 45px;
+}
+
+
