@@ -43,6 +43,7 @@ const eyeElement = document.querySelectorAll('.js-eye-logo');
 eyeElement.forEach((eye) => {
   const eyeURL = eye.dataset.url;
   eye.addEventListener('click', () => {
+    alert('You\'re being redirected to a third party webiste');
     window.open(eyeURL, '_blank');
   });
 });
